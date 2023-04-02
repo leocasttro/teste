@@ -7,6 +7,9 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "AWSSDK.Core.dll": "sha256-+UpImU00F39wFSt+inE9WLBTUExntLG77AT9xvHPZXI=",
+      "AWSSDK.SecurityToken.dll": "sha256-P3TkEvrhuiq4K1HnQHdk6MNzra8x4cvSdJ1hHfOwlbw=",
+      "DnsClient.dll": "sha256-pqqUK\/nxzj7PtSwp8HNcVX1ULYXRKP+ym0hhLNYpjsk=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-mU8wXrw1NaAfoswi7J10exqtK90y6UBTDA8jt1T84BQ=",
       "Microsoft.AspNetCore.Components.dll": "sha256-VEJzgKvwGbPm2I+rYbqDt\/Ret+PXbgWB8pBkqxAHjz4=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-0WJxmwuCKgsNP0fiuA+6gNNYVwhPz4yS+4AfhQS+nms=",
@@ -29,8 +32,15 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-jOmoWSfsdQexH\/6QCA56gR1RMEqeix2iDDUBWbpAOQI=",
       "Microsoft.JSInterop.dll": "sha256-ZMyJ9hhGB\/8OncNBBf+NtPLM17QgBVDUTx3QqpVY1cg=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-FXXasKSSy3z8h8Rlbb5yEU1ZTjNHPkfS6OXGKVcHqkc=",
+      "MongoDB.Bson.dll": "sha256-d3ZsdGnCH++KHoY26Z19JA1IxR9hFKWE59VDS0pGDmc=",
+      "MongoDB.Driver.dll": "sha256-XZXhge+o5qeM5xgV6lhHanVvNQKpth\/b0zhHSHVR\/kE=",
+      "MongoDB.Driver.Core.dll": "sha256-qqEfR0SnPkzUV0zmanIDmi2anLp1SyKhDFevWf2ambM=",
+      "MongoDB.Libmongocrypt.dll": "sha256-0IcHuoTqrHG0vWBoQq6+HxI2BSDMkAGnVwN64V5vGS8=",
       "Newtonsoft.Json.dll": "sha256-IsZJ91\/OW+fHzNqIgEc7Y072ns8z9dGritiSyvR9Wgc=",
+      "SharpCompress.dll": "sha256-g6OkB2E3tHVhjYz074TwY\/qKeHk14HgEWYjivSizy68=",
+      "Snappier.dll": "sha256-7+iUMbT8Ae8amaAJEgiQ8U\/p6OQqf5zp4oy2zEDxxis=",
       "System.IO.Pipelines.dll": "sha256-6+E55JXedimdw1c1bDtVg4K7XuWjVWVTifH8QpfzXSY=",
+      "ZstdSharp.dll": "sha256-VKZX+de4WCoEsOirOWgSviiKvr0Z3Ujd2\/PpLOUPOaE=",
       "Microsoft.CSharp.dll": "sha256-g19VGs7fPjYMcCLlDjFJVrJoJzKFHq4bh4PV+LYyaEI=",
       "Microsoft.VisualBasic.Core.dll": "sha256-FqpPud2z\/vgMi\/KYjGER1Un8wiAPQQ0164VUwRApxVo=",
       "Microsoft.VisualBasic.dll": "sha256-U41h+DUZJTZzp6WZFW3LmTelyxU5EX+A+34RIWdQTTY=",
@@ -197,13 +207,13 @@
       "mscorlib.dll": "sha256-KqZqU1imWCwJ9UPDElyoolN8s7Yqhjk67wuOohFN5KA=",
       "netstandard.dll": "sha256-kBK\/QJy7\/skP97jqnvXnOFMrhWS8HZ1bsADFK\/gZkyM=",
       "System.Private.CoreLib.dll": "sha256-3webPuyNUXfAFKY5c1tC\/jBVrjZHelBwvXrr1E9VJuk=",
-      "crud.dll": "sha256-C590w4rzMjgM6CpKT9CBoKRXuHJLmeMhXVB0X2VoqH8="
+      "crud.dll": "sha256-xmV0W6kNftVfJS1A+J5ytLjCzMr6eFnWmNMToRWuC10="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "crud.pdb": "sha256-GKd+fOSxZ\/j\/5qEVv462kZMpo\/U6GMVzP+yM7jqiVlg="
+      "crud.pdb": "sha256-5Kc\/Vd5aDh4XuumVVuH6Hrgnbx1URJ26q1cry42Chxc="
     },
     "runtime": {
       "dotnet.6.0.13.hf5oep0oqr.js": "sha256-X\/515F1HEzgsDZdY8BJjt8YUwrWngHGZkMnpClhsrpY=",

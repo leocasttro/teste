@@ -1,0 +1,48 @@
+﻿@page "/create"
+@inject ApiService ApiService
+@inject NavigationManager Navigation
+
+
+<EditForm Model="@data" OnValidSubmit="@HandleValidSubmit">
+    <DataAnnotationsValidator />
+
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <InputText id="nome" class="form-control" @bind-Value="data.Nome" />
+        <ValidationMessage For="@(() => data.Nome)" />
+    </div>
+
+    <div class="form-group">
+        <label for="site">Site</label>
+        <InputText id="site" class="form-control" @bind-Value="data.Site" />
+        <ValidationMessage For="@(() => data.Site)" />
+    </div>
+
+    <button type="button" class="btn btn-primary mt-3" @onclick="@(() => CreateData())">Salvar</button>
+</EditForm>
+
+@code { 
+    private DataPost data = new DataPost
+    {
+        CreatedByUser = "leocasttro40@gmail.com"
+    };
+
+    private async Task CreateData()
+    {
+        try 
+        {
+            var response = await ApiService.CreateDataAsync(data);
+            Navigation.NavigateTo("/");
+        }
+        catch (Exception ex) 
+        {
+            Console.WriteLine(ex.StackTrace);
+        }
+    }
+
+    private void HandleValidSubmit()
+    {
+        
+    }
+}
+
